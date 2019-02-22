@@ -1,0 +1,218 @@
+.body {
+  margin: 0;
+	padding: 0;
+	border: 0;
+  font-family: OpenSans, Helvetica, sans-serif;
+}
+
+.visuallyhidden {
+  width: 1px;
+  height: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute;
+}
+
+.header {
+  background-image: url("https://images.pexels.com/photos/90056/pexels-photo-90056.jpeg?cs=srgb&dl=brush-paint-brush-90056.jpg&fm=jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  min-width: 1200px;
+  position: relative;
+  padding-top: 35px;
+  }
+
+.header::after {
+  content:"";
+  background-color: #000000;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.5;
+}
+
+.container {
+  font-family: OpenSans, Helvetica, sans-serif;
+  color: #ffffff;
+  position: relative;
+  z-index: 2;
+  text-transform: uppercase;
+  box-sizing: border-box;
+	margin-right: auto;
+	margin-left: auto;
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 146px;
+}
+
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  width: 180px;
+  }
+
+.menu {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-list {
+  padding: 0;
+  margin: 0;
+}
+
+.menu-list li  {
+  display: inline-block;
+  font-size: 13px;
+}
+
+.menu-list-item:nth-child(n+2) {
+  margin-left: 40px;
+}
+
+.menu-list li a {
+  list-style: none;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.title  {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  width: 735px;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 75px;
+  margin-top: 140px;
+  margin-bottom: 0;
+}
+
+.main-content {
+  display: flex;
+}
+
+.uber-uns {
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+}
+
+.uber-uns-section {
+  width: 400px;
+}
+
+.uber-uns-image {
+  width: 400px;
+  height: 300px;
+}
+
+.uber-uns-title {
+font-size: 40px;
+text-align: center;
+color: darkgrey;
+}
+
+.uber-uns-text {
+font-size: 15px;
+text-align: left;
+color: grey;
+}
+
+.uber-uns-text li {
+list-style: none;
+}
+
+.leistungen {
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.leistungen li {
+  list-style: none;
+}
+
+.footer {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  margin-bottom: 35px;
+}
+
+.social-nets {
+  background-color: #eeeeee;
+  margin: 70px auto;
+  padding: 0;
+}
+
+.social-nets-container {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 367px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 0;
+}
+
+.nets-button-twitter {
+  border: none;
+  width: 20px;
+  height: 20px;
+  background-color: #eeeeee;
+  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/004-twitter.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  margin-right: 25px;
+}
+
+.nets-button-facebook {
+  border: none;
+  width: 20px;
+  height: 20px;
+  background-color: #eeeeee;
+  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/002-facebook-logo.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  margin-right: 25px;
+}
+
+.nets-button-instagram {
+  border: none;
+  width: 20px;
+  height: 20px;
+  background-color: #eeeeee;
+  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/005-instagram.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  margin-right: 25px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+}
+
+.copyright-link {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  color: #999999;
+}
